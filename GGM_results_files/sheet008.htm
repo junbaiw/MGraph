@@ -1,0 +1,680 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 9">
+<link id=Main-File rel=Main-File href="../GGM_results.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Edit-Time-Data href=editdata.mso>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:" ";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(7);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../GGM_results.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]><!--[if gte mso 9]><xml>
+ <x:WorksheetOptions>
+  <x:Panes>
+   <x:Pane>
+    <x:Number>3</x:Number>
+    <x:ActiveRow>11</x:ActiveRow>
+    <x:ActiveCol>3</x:ActiveCol>
+   </x:Pane>
+  </x:Panes>
+  <x:ProtectContents>False</x:ProtectContents>
+  <x:ProtectObjects>False</x:ProtectObjects>
+  <x:ProtectScenarios>False</x:ProtectScenarios>
+ </x:WorksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+<span lang=EN-US>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1216 style='border-collapse:
+ collapse;table-layout:fixed;width:912pt'>
+ <col width=64 span=19 style='width:48pt'>
+ <tr height=25 style='height:18.75pt'>
+  <td height=25 class=xl29 colspan=7 width=448 style='height:18.75pt;
+  mso-ignore:colspan;width:336pt'>The using of GGM to reconstruct the PKC
+  pathway</span></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=19 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Start
+  Running ...............</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=5 style='height:13.5pt;mso-ignore:colspan'>Causal
+  predication of row variables</td>
+  <td colspan=14 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=6 style='height:13.5pt;mso-ignore:colspan'>Normalize
+  input data to mean=0, variance=1</td>
+  <td colspan=13 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl28 height=18 style='height:13.5pt'>
+  <td height=18 class=xl27 colspan=6 style='height:13.5pt;mso-ignore:colspan'>Load
+  file gaussInput_PKC_pathway_MissImput.dat</td>
+  <td colspan=13 class=xl28 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'>Reading
+  parameter</td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'>Number
+  of data, N=46</td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Number
+  of variables,<span style="mso-spacerun: yes">  </span>q=13</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'
+  x:str="Label of columns, ">Label of columns, </td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>WSC1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>WSC2</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>WSC3</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MID2</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>RHO1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>PKC1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>BCK1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MKK1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MKK2</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MPK1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>SWI4</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>SWI6</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>RLM1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=2 style='height:13.5pt;mso-ignore:colspan'>Device=
+  4.4849</td>
+  <td colspan=17 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'>Degree
+  of freedom= 1</td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Chi
+  square test P= 0.034196</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=6 style='height:13.5pt;mso-ignore:colspan'
+  x:str="Estimated partial correlation coefficient= ">Estimated partial
+  correlation coefficient= </td>
+  <td colspan=13 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">    </span>-1<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">      
+  </span>0.196<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.247<span style="mso-spacerun:
+  yes">       </span>0.325<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>-0.45<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.372<span style="mso-spacerun: yes">      
+  </span>0.195<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">          </span>-1<span style="mso-spacerun: yes">      
+  </span>0.288<span style="mso-spacerun: yes">       </span>0.631<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>-0.24<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>-0.29<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>0.196<span style="mso-spacerun: yes">      
+  </span>0.288<span style="mso-spacerun: yes">          </span>-1<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.343<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>0.249<span style="mso-spacerun: yes">       </span>0.245</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun: yes">      
+  </span>0.631<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">          </span>-1<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">     
+  </span>-0.276<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.407<span style="mso-spacerun:
+  yes">      </span>-0.344<span style="mso-spacerun: yes">       </span>0.419<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>0.247<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">          </span>-1<span style="mso-spacerun:
+  yes">      </span>-0.242<span style="mso-spacerun: yes">     
+  </span>-0.281<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>0.228<span
+  style="mso-spacerun: yes">       </span>0.411</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>0.325<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.276<span
+  style="mso-spacerun: yes">      </span>-0.242<span style="mso-spacerun:
+  yes">          </span>-1<span style="mso-spacerun: yes">      
+  </span>0.236<span style="mso-spacerun: yes">       </span>0.403<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>0.244<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.304</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">     
+  </span>-0.343<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">      </span>-0.281<span style="mso-spacerun:
+  yes">       </span>0.236<span style="mso-spacerun: yes">         
+  </span>-1<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>-0.34<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>0.205<span
+  style="mso-spacerun: yes">       </span>0.309</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>-0.45<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>0.407<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>0.403<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">          </span>-1<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.462<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.278</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.344<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">          </span>-1<span style="mso-spacerun:
+  yes">       </span>0.251<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.311<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'>-0.372<span
+  style="mso-spacerun: yes">       </span>-0.24<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">      
+  </span>0.419<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.244<span style="mso-spacerun:
+  yes">       </span>-0.34<span style="mso-spacerun: yes">     
+  </span>-0.462<span style="mso-spacerun: yes">       </span>0.251<span
+  style="mso-spacerun: yes">          </span>-1<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">        </span>0.62</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>0.195<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">         
+  </span>-1<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun: yes">      
+  </span>-0.29<span style="mso-spacerun: yes">       </span>0.249<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>0.228<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>0.205<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.311<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">          </span>-1<span style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">      
+  </span>0.245<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.411<span style="mso-spacerun:
+  yes">       </span>0.304<span style="mso-spacerun: yes">      
+  </span>0.309<span style="mso-spacerun: yes">       </span>0.278<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">        </span>0.62<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">          </span>-1</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Number
+  of deleted edge= 45</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'></td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Start
+  Running ...............</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=5 style='height:13.5pt;mso-ignore:colspan'>Causal
+  predication of row variables</td>
+  <td colspan=14 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=6 style='height:13.5pt;mso-ignore:colspan'>Normalize
+  input data to mean=0, variance=1</td>
+  <td colspan=13 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl28 height=18 style='height:13.5pt'>
+  <td height=18 class=xl27 colspan=5 style='height:13.5pt;mso-ignore:colspan'>Load
+  file gaussInput_PKC_pathway.dat</td>
+  <td colspan=14 class=xl28 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'>Reading
+  parameter</td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'>Number
+  of data, N=46</td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Number
+  of variables,<span style="mso-spacerun: yes">  </span>q=13</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'
+  x:str="Label of columns, ">Label of columns, </td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>WSC1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>WSC2</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>WSC3</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MID2</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>RHO1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>PKC1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>BCK1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MKK1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MKK2</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>MPK1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>SWI4</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>SWI6</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 style='height:13.5pt'>RLM1</td>
+  <td colspan=18 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=2 style='height:13.5pt;mso-ignore:colspan'>Device=
+  6.3363</td>
+  <td colspan=17 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=3 style='height:13.5pt;mso-ignore:colspan'>Degree
+  of freedom= 1</td>
+  <td colspan=16 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Chi
+  square test P= 0.011829</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=6 style='height:13.5pt;mso-ignore:colspan'
+  x:str="Estimated partial correlation coefficient= ">Estimated partial
+  correlation coefficient= </td>
+  <td colspan=13 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">    </span>-1<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.295<span style="mso-spacerun:
+  yes">       </span>0.291<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.393<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.343<span style="mso-spacerun: yes">      
+  </span>0.203<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">          </span>-1<span style="mso-spacerun: yes">      
+  </span>0.228<span style="mso-spacerun: yes">        </span>0.62<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.238<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>-0.18<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.281<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun: yes">      
+  </span>0.228<span style="mso-spacerun: yes">          </span>-1<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>-0.26<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>0.271<span style="mso-spacerun: yes">       </span>0.224</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">        </span>0.62<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">          </span>-1<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">     
+  </span>-0.273<span style="mso-spacerun: yes">       </span>0.438<span
+  style="mso-spacerun: yes">      </span>-0.345<span style="mso-spacerun:
+  yes">       </span>0.327<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>0.295<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">          </span>-1<span style="mso-spacerun:
+  yes">      </span>-0.297<span style="mso-spacerun: yes">     
+  </span>-0.261<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.445</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>0.291<span style="mso-spacerun: yes">     
+  </span>-0.238<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.297<span style="mso-spacerun: yes">         
+  </span>-1<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.263<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">       </span>0.418</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">      
+  </span>-0.26<span style="mso-spacerun: yes">      </span>-0.273<span
+  style="mso-spacerun: yes">      </span>-0.261<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">         
+  </span>-1<span style="mso-spacerun: yes">        </span>0.28<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.203<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.285</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'>-0.393<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">      
+  </span>0.438<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.263<span style="mso-spacerun:
+  yes">        </span>0.28<span style="mso-spacerun: yes">         
+  </span>-1<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">      </span>-0.367<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>0.245</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.345<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">          </span>-1<span style="mso-spacerun:
+  yes">       </span>0.275<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">      </span>-0.316<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'>-0.343<span
+  style="mso-spacerun: yes">       </span>-0.18<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">      
+  </span>0.327<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.203<span style="mso-spacerun: yes">     
+  </span>-0.367<span style="mso-spacerun: yes">       </span>0.275<span
+  style="mso-spacerun: yes">          </span>-1<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">       </span>0.647</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes"> </span>0.203<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">         
+  </span>-1<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun: yes">     
+  </span>-0.281<span style="mso-spacerun: yes">       </span>0.271<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">      </span>-0.316<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">          </span>-1<span style="mso-spacerun: yes">           </span>0</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=19 style='height:13.5pt;mso-ignore:colspan'><span
+  style="mso-spacerun: yes">     </span>0<span style="mso-spacerun:
+  yes">           </span>0<span style="mso-spacerun: yes">      
+  </span>0.224<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">       </span>0.445<span style="mso-spacerun:
+  yes">       </span>0.418<span style="mso-spacerun: yes">      
+  </span>0.285<span style="mso-spacerun: yes">       </span>0.245<span
+  style="mso-spacerun: yes">           </span>0<span style="mso-spacerun:
+  yes">       </span>0.647<span style="mso-spacerun: yes">          
+  </span>0<span style="mso-spacerun: yes">           </span>0<span
+  style="mso-spacerun: yes">          </span>-1</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl26 colspan=4 style='height:13.5pt;mso-ignore:colspan'>Number
+  of deleted edge= 48</td>
+  <td colspan=15 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
